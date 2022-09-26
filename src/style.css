@@ -59,4 +59,24 @@ body {
   font-family: "Karla", sans-serif;
   font-size: large;
   font-weight: 800;
+  
+}
+
+.btn:hover{
+  background-image: linear-gradient(to right, #551c69, #791c9b);
+}
+
+.container-meme{
+  display: block;
+  text-align: center;
+  width: 100vw;
+  object-fit: contain;
+  overflow: white;
+}
+
+.meme{
+  max-width: 100%;
+height: 50vh;
+margin-top:20px;
+object-fit: contain;
 }
